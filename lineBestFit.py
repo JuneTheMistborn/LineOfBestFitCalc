@@ -30,3 +30,4 @@ a = yAvg-(b*xAvg)
 lnYMin = (b*xMin)+a
 lnYMax = (b*xMax)+a
 plt.plot((xMin, xMax), (lnYMin, lnYMax))
+plt.show()
