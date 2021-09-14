@@ -9,9 +9,9 @@ for point in points:
     ySum += point[1]
     if point[0] < xMin:
         xMin = point[0]
-    elif point[1] > xMax:
+    elif point[0] > xMax:
         xMax = point[1]
-    if point[0] < yMin:
+    if point[1] < yMin:
         yMin = point[0]
     elif point[1] > yMax:
         yMax = point[1]
